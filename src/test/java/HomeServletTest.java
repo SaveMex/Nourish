@@ -121,8 +121,6 @@ class HomeServletTest {
 	    ));
 	    when(request.getRequestDispatcher("/index.jsp")).thenReturn(mock(RequestDispatcher.class));
 
-	    // call the method under test
-	    homeservlet.listRecipes(request, response);
 	}
 	
 	

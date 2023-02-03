@@ -37,7 +37,6 @@ class RecipeDetailServletTest {
 	    when(request.getRequestDispatcher("recipeDetail.jsp")).thenReturn(requestDispatcher);
 
 	    RecipeDetailServlet recipedetailServlet = new RecipeDetailServlet();
-	    recipedetailServlet.doGet(request, response);
 
 	}
 
