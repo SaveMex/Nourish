@@ -120,19 +120,5 @@ class HomeServletTest {
 	        new Recipe(2, "Recipe 2", "Ingredients 2", "Image 2", "wRecipe 2", "vRecipe 2")
 	    ));
 	    when(request.getRequestDispatcher("/index.jsp")).thenReturn(mock(RequestDispatcher.class));
-
 	}
-	
-	
-	
-	
-
-
-	
-	
-	
-	
-	
-	
-
 }
